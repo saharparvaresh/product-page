@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header>
+      <p>Product Page</p>
+    </header>
+    <main>
+      <div id="search">
+        <input placeholder="search name" id="search-input" type="text" />
+        <div>
+          <button class="filter selected" data-filter="all">All</button>
+          <button class="filter" data-filter="tech">Tech</button>
+          <button class="filter" data-filter="clothing">Clothing</button>
+          <button class="filter" data-filter="health">Health</button>
+        </div>
+        <div id="search-price">
+          <input placeholder="search price" type="name" />
+          <button>search</button>
+        </div>
+      </div>
+      <div id="products">
+        <div class="product-item" data-category="tech" data-category="tech">
+          <img src="./img/iphone.png" />
+          <p>Apple iphone 14 pro</p>
+          <span>$ 1449</span>
+        </div>
+
+        <div
+          class="product-item"
+          data-category="clothing"
+          data-category="clothing"
+        >
+          <img src="./img/shoes.png" />
+          <p>Running shoes</p>
+          <span>$ 149</span>
+        </div>
+        <div class="product-item" data-category="tech" data-category="tech">
+          <img src="./img/watch.png" />
+          <p>Apple watch</p>
+          <span>$ 849</span>
+        </div>
+
+        <div
+          class="product-item"
+          data-category="clothing"
+          data-category="clothing"
+        >
+          <img src="./img/bag.png" />
+          <p>college bag</p>
+          <span>$ 149</span>
+        </div>
+
+        <div
+          class="product-item"
+          data-category="clothing"
+          data-category="clothing"
+        >
+          <img src="./img/jacket.png" />
+          <p>boys jacket</p>
+          <span>$ 112</span>
+        </div>
+
+        <div class="product-item" data-category="health" data-category="health">
+          <img src="./img/shampoo.png" />
+          <p>Keratin hair care</p>
+          <span>$ 140</span>
+        </div>
+
+        <div class="product-item" data-category="health" data-category="health">
+          <img src="./img/airpods.png" />
+          <p>Apple airpods pro</p>
+          <span>$ 1149</span>
+        </div>
+
+        <div class="product-item" data-category="health" data-category="health">
+          <img src="./img/vitamin.png" />
+          <p>Vitamin E</p>
+          <span>$80</span>
+        </div>
+
+        <div class="product-item" data-category="health" data-category="health">
+          <img src="./img/cream.png" />
+          <p>face cream</p>
+          <span>$ 79</span>
+        </div>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
